@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,800;1,600;1,700;1,800&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif
+}
+
+body{
+    font-family: 'Montserrat', sans-serif
+}
+
+.header-logo img {
+    max-width: 290px;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+
+.nav-link:focus, .nav-link:hover {
+    color: #289BDE;
+}
+
+
+.single-carousel::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: #1D1D1D;
+    opacity: .6;
+}
+
+
+.carousel-first {
+    text-align: center;
+    width: 100%;
+
+}
+
+
+.carousel-first p {
+    color: #f4f4f4;
+}
+
+.carousel-first h1 {
+    color: #ffff;
+    font-weight: 800;
+}
+
+.carousel-first button {
+    background: #289BDE;
+    padding: 10px 15px;
+    --bs-btn-focus-box-shadow: outline-none;
+    border: none;
+}
+
+.carousel-first button:hover {
+    background-color: #056299;
+}
+
+.carousel-control-prev i, .carousel-control-next {
+    font-size: 30px;
+}
+
+.single-course {
+    border: 1px solid #E8E8E8;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.single-course-info span {
+    color: #289BDE;
+}
+
+
+.register-section-bg{
+    background-color: #289BDE;
+    color: #fff;
+}
+
+
+.modal-content {
+    color: #000;
+}
+
+
+.footer-content {
+    background-color: #161616;
+    color: #E8E8E8;
+}
+
+.footer-content span a {
+    text-decoration: none;
+    color: #E8E8E8;
+}
+
+
+.footer-icon i {
+    width: 50px;
+    height: 50px;
+    background-color: #242323;
+    font-size: 20px;
+    border-radius: 50px;
+    line-height: 50px;
+    color: #fff;
+}
+
+.footer-icon {
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width:576px) {
+
+    .carousel-first h1 {
+        font-size: 22px;
+    }
+
+    .carousel-first button {
+        padding: 5px 14px;
+    }
+
+    .carousel-first {
+        top: 8%;
+        left: 0%;
+    }
+    .single-course-img img {
+        width: 100%;
+    }
+
+    .single-course-info {padding: 20px 0;}
+
+}
+
+
